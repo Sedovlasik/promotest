@@ -1,0 +1,105 @@
+
+
+* {
+box-sizing: border-box;
+padding: 0;
+margin: 0;
+}
+
+
+body {
+background-color: #fff;
+}
+
+.container {
+display: flex;
+
+
+
+}
+
+h2 {
+font-weight: 700;
+margin-bottom: 8px;
+text-align: center;
+}
+
+p {
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+font-weight: 400;
+font-size: 15px;
+font-style: normal;
+line-height: 20px;
+margin-left: 16px;
+margin-right: 16px;
+}
+
+
+.card {
+box-sizing: border-box;
+flex: none;
+flex-grow: 0;
+order: 0;
+position: initial;
+background: #FFFFFF;
+width: 288px;
+height: 408px;
+margin: 24px;
+border: 1px solid #E1E4E6;
+border-radius: 15px;
+left: 421px;
+top: 672px;
+}
+
+.card:hover {
+background-color: #fff;
+cursor: pointer;
+transform: scale(1.03);
+transition: all 0s ease;
+}
+
+.card-image {
+height: 191px;
+margin-bottom: 20px;
+background-size: cover;
+border-radius: 15px 15px 0 0;
+}
+
+
+
+.action-1 {
+background-image: url(/images/korova.png)
+}
+
+.action-2 {
+background-image: url(/images/elka.png);
+}
+
+.action-3 {
+background-image: url(/images/baba.png);
+}
+
+.action-4 {
+background-image: url(/images/ruka.png);
+}
+
+
+.card a {
+color: blue;
+text-decoration: none;
+text-transform: uppercase;
+font-size: 11px;
+font-style: normal;
+font-weight: 700;
+line-height: 16px;
+letter-spacing: 0.11em;
+margin-left: 16px;
+flex: none;
+}
+
+
+
+
